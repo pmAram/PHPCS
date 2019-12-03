@@ -9,7 +9,9 @@ FROM php:7.2-cli
 #LABEL "repository"="http://github.com/oskarstark/phpcs-ga"
 #LABEL "homepage"="http://github.com/actions"
 #LABEL "maintainer"="Oskar Stark <oskarstark@googlemail.com>"
-RUN apt-get -y install git
+RUN apt-get update \
+    apt-get upgrade \
+    apt-get install git
 RUN pear install PHP_CodeSniffer-2.9.0
 RUN cd /usr/local/lib/php/PHP/CodeSniffer/Standards/
 RUN git clone git://github.com/ludofleury/symfony-coding-standard.git Symfony
