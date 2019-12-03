@@ -1,1 +1,1 @@
-sh -c "phpcs $*"
+bash phpcs $*
