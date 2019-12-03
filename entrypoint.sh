@@ -1,1 +1,1 @@
-bash phpcs $*
+sh -c "/usr/local/bin/phpcs $*"
