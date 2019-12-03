@@ -1,2 +1,2 @@
 whereis phpcs
-phpcs --standard=Symfony ./src/public/custom/plugins/
+phpcs --standard=Symfony /check
