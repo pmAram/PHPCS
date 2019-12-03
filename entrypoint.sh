@@ -1,2 +1,2 @@
 whereis phpcs
-phpcs --standard=Symfony /check
+phpcs --standard=Symfony --ignore=SwagPayPal ./check
