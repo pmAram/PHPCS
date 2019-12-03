@@ -18,4 +18,5 @@ RUN git clone git://github.com/ludofleury/symfony-coding-standard.git Symfony
 
 
 ADD entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
