@@ -1,2 +1,2 @@
 whereis phpcs
-phpcs --standard=Symfony --ignore=SwagPayPal ./check
+phpcs --standard=Symfony --ignore=SwagPayPal ./src/public/custom/plugins/
